@@ -1,9 +1,46 @@
-h1 {
-    font-family: 'Trebuchet MS', Times, sans-serif;
-    color: #053605;
-    font-weight: bolder;
+body {
+    max-width: 713px;
+    margin: auto;
+    background-color: rgba(36, 6, 6, 0.918);
+    color: white;
+    margin: none;
 }
 
-body {
-    background: rgb(249, 250, 167);
-  }
+#banner img {
+    background: src('C:\Users\danie\OneDrive\Pictures\Banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: cover;
+    max-width: 713px;
+}
+
+.nav a {
+    background-color: rgba(126, 86, 13, 0.918);
+    color: white;
+    text-align: center;
+    float: left;
+    width: 33.25%;
+    margin: auto;
+    font-size: larger;
+}
+
+.intro img {
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.intro { 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    max-width: 713px;
+}
+
+.summary {
+   color: white;
+   max-width: 713px;
+}
+
+
